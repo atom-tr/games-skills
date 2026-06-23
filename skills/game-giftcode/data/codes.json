@@ -1,0 +1,660 @@
+{
+  "game": "Delta Force",
+  "codes": {
+    "DFAKAONIKOU": {
+      "status": "error",
+      "tried_at": "2026-06-23T02:00:27Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "MOILOOT79": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:01:24Z",
+      "note": "ok"
+    },
+    "MOILOOT65": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:01:26Z",
+      "note": "ok"
+    },
+    "TRILLIONRAID1000": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:02:53Z",
+      "note": "ok"
+    },
+    "TRILLIONRAID600": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:02:55Z",
+      "note": "ok"
+    },
+    "TRILLIONRAID300": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:02:58Z",
+      "note": "ok"
+    },
+    "POC3105S95": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3105S96": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3105S73": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3105S64": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3105S31": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3105S90": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S19": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S52": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S99": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S59": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S53": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "POC3005S51": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFWITNESS77": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFOS3FZ9LK": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFOS7Q2VXA": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFOS2ZK8VA": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFOSL5Q7MN": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "DFOSB4N9RD": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:04Z",
+      "note": "pre-recorded"
+    },
+    "PWC260418S79": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "PWC260418S84": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "PWC260418S11": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "PWC260418S72": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "PWC260419S67": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "PWC260419S84": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCCOPNOW111": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCCOPGIST88": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCCOPWOR1D": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCCOPTOBE03": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCCOPPL4Y3R5": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260405B69": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260405B58": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260405B36": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFDRAGONBOAT": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFBRILLIANT165": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "N4SQWGXYCHW7GUCI3BJY": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFBEACON030": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DF1314754": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "JGHMCMXYA6PLCFGVD9MG": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFCL503": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFANCHOR945": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFDRAGON504": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "ACUQJTXY7VXGJXCTBNQU": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "FVZELRXYAJWVIPFSTSZ": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENBOBA6228": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENBOBA2719": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENBOBA6167": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENMOBILE7095": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENMOBILE3325": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DAICHIENMOBILE7362": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFOUTSTANDING056": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFRELIABLE732": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFFOREVER395": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFEXCELLENT659": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFEXCEPTIONAL305": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFREMARKABLE103": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFESSENCE982": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFSPARK119": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFULTRA220": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFGALAXY250": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFHORIZON503": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFNINJA874": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFRAINBOW356": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:05Z",
+      "note": "pre-recorded"
+    },
+    "DFFLASH260": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOASIS407": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFETERNITY717": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFFANTASY742": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFROCKET825": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFHEROIC668": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFWIZARD309": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFRL1017": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFSH428": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFVOYAGE901": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFJUBILEE594": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "85EWN4XYBJFNCPKBADR": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFCLARITY152": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025FINALS1549": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF5910": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF9163": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF2509": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF4827": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF8051": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF5732": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUT2025PLAYOFF1276": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "GADFZEBRA": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "HJRTRKXYLMCTYYCEY64H": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "SSCKDFXY5AKDZQJJLKXQ": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "F2X6E3XY3PJDCE5RT7P": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "YWHFTSXYGRPAZVAFLN82": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "BD52XMXYJ2DFGCQNQ4": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "MSZ7HMXYYGHJP8AY7HPK": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260404B57": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260404B63": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260404B47": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260403B21": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260403B33": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSS260403B81": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOS7K2M9Q": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOS4XJ8PL": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFOSW4D1YP": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFSOLACE241": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUTW260412S95": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUTW260412S36": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:06Z",
+      "note": "pre-recorded"
+    },
+    "DFUTW260412S99": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "PWC260419S21": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "PWC260419S65": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26P8X2": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW269V3B": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW264K7M": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26Z5RT": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26N8P4": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26RT4F": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26K5S9": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIWCHAMP": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26ZX3Q": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW265M9A": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26Y7J3": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW266F2V": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW263T7Z": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26H9KP": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26R4W8": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26C2GX": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26L2WY": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26M7Q9": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW26X3NC": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    },
+    "DFIW268B5V": {
+      "status": "success",
+      "tried_at": "2026-06-23T02:05:07Z",
+      "note": "pre-recorded"
+    }
+  }
+}

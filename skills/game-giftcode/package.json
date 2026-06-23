@@ -1,0 +1,15 @@
+{
+  "name": "game-giftcode",
+  "version": "1.0.0",
+  "description": "Game gift code redeemer",
+  "type": "module",
+  "scripts": {
+    "redeem:df": "node scripts/redeem_deltaforce.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^25.2.0"
+  }
+}
