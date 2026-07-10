@@ -655,6 +655,171 @@
       "status": "success",
       "tried_at": "2026-06-23T02:05:07Z",
       "note": "pre-recorded"
+    },
+    "DFELEVATE16": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFAWAKEN56": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFCONCORD82": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFserene218": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFMagic057": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "TrickOrTreat": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFENERGY428": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFCLOVER812": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFHARBOR738": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFPROMISE643": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFCELESTE516": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFVIVID061": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFMOMENTUM423": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFSYMPHONY104": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFHORIZON91": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFINSIGHT48": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFRESOLVE19": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
+    },
+    "DFEMBARK63": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "DFMOMENT479": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "DFASCEND72": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "DFPARAGON41": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "DFGENESIS05": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "DFCATALYST87": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "ok"
+    },
+    "DFAXIOM33": {
+      "status": "error",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
+    },
+    "HEDELTAFORCE8032": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE9026": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE7563": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE8781": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "DFSIXMAJOR6": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "VIP666SOLDF": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "SOLPROMAJOR": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE3630": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE4583": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
     }
   }
 }
