@@ -688,58 +688,58 @@
     },
     "DFENERGY428": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:46Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFCLOVER812": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:48Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFHARBOR738": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:50Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFPROMISE643": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:52Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFCELESTE516": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:54Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFVIVID061": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:56Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFMOMENTUM423": {
       "status": "error",
-      "tried_at": "2026-07-10T03:51:58Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFSYMPHONY104": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:00Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFHORIZON91": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:02Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFINSIGHT48": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:04Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFRESOLVE19": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:06Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "invalid/expired"
     },
     "DFEMBARK63": {
       "status": "error",
@@ -775,6 +775,51 @@
       "status": "error",
       "tried_at": "2026-07-10T03:52:20Z",
       "note": "curl failed: "
+    },
+    "HEDELTAFORCE8032": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE9026": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE7563": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE8781": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "DFSIXMAJOR6": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "VIP666SOLDF": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "SOLPROMAJOR": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE3630": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
+    },
+    "HEDELTAFORCE4583": {
+      "status": "success",
+      "tried_at": "2026-07-10T04:01:51Z",
+      "note": "ok"
     }
   }
 }
