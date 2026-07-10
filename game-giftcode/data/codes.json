@@ -655,6 +655,36 @@
       "status": "success",
       "tried_at": "2026-06-23T02:05:07Z",
       "note": "pre-recorded"
+    },
+    "DFELEVATE16": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFAWAKEN56": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFCONCORD82": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFserene218": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "DFMagic057": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
+    },
+    "TrickOrTreat": {
+      "status": "success",
+      "tried_at": "2026-07-10T03:43:27Z",
+      "note": "ok"
     }
   }
 }
