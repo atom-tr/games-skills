@@ -743,38 +743,38 @@
     },
     "DFEMBARK63": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:08Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "DFMOMENT479": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:10Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "DFASCEND72": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:12Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "DFPARAGON41": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:14Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "DFGENESIS05": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:16Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "DFCATALYST87": {
-      "status": "error",
-      "tried_at": "2026-07-10T03:52:18Z",
-      "note": "curl failed: "
+      "status": "success",
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "ok"
     },
     "DFAXIOM33": {
       "status": "error",
-      "tried_at": "2026-07-10T03:52:20Z",
-      "note": "curl failed: "
+      "tried_at": "2026-07-10T04:05:02Z",
+      "note": "invalid/expired"
     },
     "HEDELTAFORCE8032": {
       "status": "success",
