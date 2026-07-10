@@ -685,6 +685,96 @@
       "status": "success",
       "tried_at": "2026-07-10T03:43:27Z",
       "note": "ok"
+    },
+    "DFENERGY428": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFCLOVER812": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFHARBOR738": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFPROMISE643": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFCELESTE516": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFVIVID061": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFMOMENTUM423": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFSYMPHONY104": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFHORIZON91": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFINSIGHT48": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFRESOLVE19": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFEMBARK63": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFMOMENT479": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFASCEND72": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFPARAGON41": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFGENESIS05": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFCATALYST87": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
+    },
+    "DFAXIOM33": {
+      "status": "pending",
+      "tried_at": null,
+      "note": ""
     }
   }
 }
