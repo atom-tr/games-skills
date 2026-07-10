@@ -687,94 +687,94 @@
       "note": "ok"
     },
     "DFENERGY428": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:46Z",
+      "note": "curl failed: "
     },
     "DFCLOVER812": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:48Z",
+      "note": "curl failed: "
     },
     "DFHARBOR738": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:50Z",
+      "note": "curl failed: "
     },
     "DFPROMISE643": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:52Z",
+      "note": "curl failed: "
     },
     "DFCELESTE516": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:54Z",
+      "note": "curl failed: "
     },
     "DFVIVID061": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:56Z",
+      "note": "curl failed: "
     },
     "DFMOMENTUM423": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:51:58Z",
+      "note": "curl failed: "
     },
     "DFSYMPHONY104": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:00Z",
+      "note": "curl failed: "
     },
     "DFHORIZON91": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:02Z",
+      "note": "curl failed: "
     },
     "DFINSIGHT48": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:04Z",
+      "note": "curl failed: "
     },
     "DFRESOLVE19": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:06Z",
+      "note": "curl failed: "
     },
     "DFEMBARK63": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:08Z",
+      "note": "curl failed: "
     },
     "DFMOMENT479": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:10Z",
+      "note": "curl failed: "
     },
     "DFASCEND72": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:12Z",
+      "note": "curl failed: "
     },
     "DFPARAGON41": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:14Z",
+      "note": "curl failed: "
     },
     "DFGENESIS05": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:16Z",
+      "note": "curl failed: "
     },
     "DFCATALYST87": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:18Z",
+      "note": "curl failed: "
     },
     "DFAXIOM33": {
-      "status": "pending",
-      "tried_at": null,
-      "note": ""
+      "status": "error",
+      "tried_at": "2026-07-10T03:52:20Z",
+      "note": "curl failed: "
     }
   }
 }
