@@ -3,7 +3,7 @@
   "codes": {
     "DFAKAONIKOU": {
       "status": "error",
-      "tried_at": "2026-06-23T02:00:27Z",
+      "tried_at": "2026-07-13T01:58:42Z",
       "note": "[400054] The current cdk does not match"
     },
     "MOILOOT79": {
@@ -688,83 +688,83 @@
     },
     "DFENERGY428": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:44Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFCLOVER812": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:46Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFHARBOR738": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:49Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFPROMISE643": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:51Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFCELESTE516": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:53Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFVIVID061": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:55Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFMOMENTUM423": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:58:58Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFSYMPHONY104": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:00Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFHORIZON91": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:02Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFINSIGHT48": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:05Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFRESOLVE19": {
       "status": "error",
-      "tried_at": "2026-07-10T04:01:51Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:07Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFEMBARK63": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:09Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFMOMENT479": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:12Z",
+      "note": "[400054] The current cdk does not match"
     },
     "DFASCEND72": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:14Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFPARAGON41": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:16Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFGENESIS05": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:18Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFCATALYST87": {
       "status": "success",
@@ -773,8 +773,8 @@
     },
     "DFAXIOM33": {
       "status": "error",
-      "tried_at": "2026-07-10T04:05:02Z",
-      "note": "invalid/expired"
+      "tried_at": "2026-07-13T01:59:21Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "HEDELTAFORCE8032": {
       "status": "success",
@@ -828,42 +828,42 @@
     },
     "RETURNINGWARRIOR3": {
       "status": "error",
-      "tried_at": "2026-07-13T01:54:51Z",
+      "tried_at": "2026-07-13T01:59:23Z",
       "note": "[400054] The current cdk does not match"
     },
     "RETURNINGWARRIOR1": {
       "status": "error",
-      "tried_at": "2026-07-13T01:54:53Z",
+      "tried_at": "2026-07-13T01:59:25Z",
       "note": "[400054] The current cdk does not match"
     },
     "FVZELRXYAJWVVIFSTSZ": {
       "status": "error",
-      "tried_at": "2026-07-13T01:54:56Z",
+      "tried_at": "2026-07-13T01:59:28Z",
       "note": "[400054] The current cdk does not match"
     },
     "RETURNINGWARRIOR2": {
       "status": "error",
-      "tried_at": "2026-07-13T01:54:58Z",
+      "tried_at": "2026-07-13T01:59:30Z",
       "note": "[400054] The current cdk does not match"
     },
     "TOP1BXHVN": {
       "status": "error",
-      "tried_at": "2026-07-13T01:55:00Z",
+      "tried_at": "2026-07-13T01:59:32Z",
       "note": "[400054] The current cdk does not match"
     },
     "A5Z1NDW8K3PJLU": {
       "status": "error",
-      "tried_at": "2026-07-13T01:55:03Z",
+      "tried_at": "2026-07-13T01:59:36Z",
       "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "10KSUBSYOUTUBEDFRTNK": {
       "status": "error",
-      "tried_at": "2026-07-13T01:55:05Z",
+      "tried_at": "2026-07-13T01:59:38Z",
       "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
     "DFVANGUARD76": {
       "status": "error",
-      "tried_at": "2026-07-13T01:55:07Z",
+      "tried_at": "2026-07-13T01:59:40Z",
       "note": "[400067] The current user has reached the redemption limit of cdkey group"
     }
   }
