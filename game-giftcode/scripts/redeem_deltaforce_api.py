@@ -131,9 +131,32 @@ def main():
         os.path.join(os.path.dirname(__file__), "manage_codes.py"),
     ]
 
-    for i, code in enumerate(codes):
-        if i > 0:
+    # Load existing states to avoid retrying success or error codes
+    state_file = os.path.join(os.path.dirname(__file__), "../data/codes.json")
+    tracked = {}
+    if os.path.exists(state_file):
+        try:
+            with open(state_file, "r") as f:
+                state_data = json.load(f)
+                tracked = {k.upper(): v for k, v in state_data.get("codes", {}).items()}
+        except Exception as e:
+            print(f"[*] Warning: Could not load state file {state_file}: {e}", file=sys.stderr)
+
+    first_run = True
+    for code in codes:
+        # Case-insensitive check
+        if code in tracked:
+            status = tracked[code].get("status")
+            if status in ("success", "error"):
+                # Check if the error note is something we should retry (e.g. auth error)
+                note = tracked[code].get("note", "")
+                if "auth error" not in note.lower() and "curl failed" not in note.lower():
+                    print(f"[SKIP] {code} is already {status}: {note}")
+                    continue
+
+        if not first_run:
             time.sleep(2)   # rate-limit: 2s between requests
+        first_run = False
 
         print(f"\n[*] Redeeming: {code}")
         try:
