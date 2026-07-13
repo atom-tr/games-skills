@@ -825,6 +825,46 @@
       "status": "success",
       "tried_at": "2026-07-12T08:50:56Z",
       "note": "ok"
+    },
+    "RETURNINGWARRIOR3": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:54:51Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "RETURNINGWARRIOR1": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:54:53Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "FVZELRXYAJWVVIFSTSZ": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:54:56Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "RETURNINGWARRIOR2": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:54:58Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "TOP1BXHVN": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:55:00Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "A5Z1NDW8K3PJLU": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:55:03Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "10KSUBSYOUTUBEDFRTNK": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:55:05Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFVANGUARD76": {
+      "status": "error",
+      "tried_at": "2026-07-13T01:55:07Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     }
   }
 }
