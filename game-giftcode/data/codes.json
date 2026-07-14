@@ -671,17 +671,17 @@
       "tried_at": "2026-07-10T03:43:27Z",
       "note": "ok"
     },
-    "DFserene218": {
+    "DFSERENE218": {
       "status": "success",
       "tried_at": "2026-07-10T03:43:27Z",
       "note": "ok"
     },
-    "DFMagic057": {
+    "DFMAGIC057": {
       "status": "success",
       "tried_at": "2026-07-10T03:43:27Z",
       "note": "ok"
     },
-    "TrickOrTreat": {
+    "TRICKORTREAT": {
       "status": "success",
       "tried_at": "2026-07-10T03:43:27Z",
       "note": "ok"
@@ -865,6 +865,136 @@
       "status": "error",
       "tried_at": "2026-07-13T01:59:40Z",
       "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFCCOPTOBEO3": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:02:59Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "JGHMCmXa6PLcFgvD9mg": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:01Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "fvzeLrxYajwWiFSTSZ": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:03Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "1OKSUBSYOUTUBEDFRTNK": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:05Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFHORIZONS1": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:08Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "SsCkDfxYSAkdZqULKXq": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:10Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "yWHtfsxYGRPAZvAfLN82": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:12Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFAWAKENS6": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:14Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "N4SQWgxVcHw7gUci3bJy": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:17Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "B5ewN4xYbuJfncPKbADR": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:19Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "f2X6e3xY3pJDCE5r17P": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:21Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "msz7hMxYGhjpBay7HpK": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:24Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "ReturningWarrior3": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:26Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "ReturningWarrior1": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:29Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "ReturningWarrior2": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:31Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "Top1BXHVN": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:34Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFEnergy428": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:36Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFclover812": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:38Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFharbor738": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:41Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFpromise643": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:43Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFceleste516": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:45Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFvivid061": {
+      "status": "success",
+      "tried_at": "2026-07-14T06:03:48Z",
+      "note": "ok"
+    },
+    "DFmomentum423": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:50Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFsymphony104": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:52Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFmoment479": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:55Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFakaonikou": {
+      "status": "error",
+      "tried_at": "2026-07-14T06:03:57Z",
+      "note": "[400054] The current cdk does not match"
     }
   }
 }

@@ -54,7 +54,7 @@ def cmd_list(state: dict):
 def cmd_add(state: dict, codes: list[str]):
     added, skipped = [], []
     for code in codes:
-        code = code.strip().upper()
+        code = code.strip()
         if not code:
             continue
         if code in state["codes"]:
@@ -70,7 +70,7 @@ def cmd_add(state: dict, codes: list[str]):
 
 
 def cmd_update(state: dict, code: str, status: str, note: str = ""):
-    code = code.strip().upper()
+    code = code.strip()
     if status not in VALID_STATUSES:
         print(f"ERROR: invalid status '{status}'. Choose from: {', '.join(VALID_STATUSES)}", file=sys.stderr)
         sys.exit(1)

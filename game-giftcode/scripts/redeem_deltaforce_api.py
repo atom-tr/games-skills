@@ -121,7 +121,7 @@ def classify(resp: dict) -> tuple[str, str]:
 
 
 def main():
-    codes = [c.strip().upper() for c in sys.argv[1:] if c.strip()]
+    codes = [c.strip() for c in sys.argv[1:] if c.strip()]
     if not codes:
         print("Usage: python3 redeem_deltaforce_api.py CODE1 [CODE2 ...]")
         sys.exit(1)
@@ -138,13 +138,13 @@ def main():
         try:
             with open(state_file, "r") as f:
                 state_data = json.load(f)
-                tracked = {k.upper(): v for k, v in state_data.get("codes", {}).items()}
+                tracked = state_data.get("codes", {})
         except Exception as e:
             print(f"[*] Warning: Could not load state file {state_file}: {e}", file=sys.stderr)
 
     first_run = True
     for code in codes:
-        # Case-insensitive check
+        # Case-sensitive check
         if code in tracked:
             status = tracked[code].get("status")
             if status in ("success", "error"):
