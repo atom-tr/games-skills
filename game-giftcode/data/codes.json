@@ -995,6 +995,16 @@
       "status": "error",
       "tried_at": "2026-07-14T06:03:57Z",
       "note": "[400054] The current cdk does not match"
+    },
+    "DFAMMO08": {
+      "status": "success",
+      "tried_at": "2026-07-18T11:29:18Z",
+      "note": ""
+    },
+    "DFTURING09": {
+      "status": "success",
+      "tried_at": "2026-07-18T11:29:19Z",
+      "note": ""
     }
   }
 }
