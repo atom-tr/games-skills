@@ -110,7 +110,39 @@ export DF_OPENID="8486567269679708357"       # numeric openid field
 export DF_TOKEN="fbf006dac704924e09e8346..."  # token field (not channel access_token)
 ```
 
-**How to get tokens**: paste the Garena auth JSON to agent — extract `openid` and `token` fields.
+**How to get tokens**: 
+When asking the user for tokens, ask them to paste the Garena auth JSON or run this JavaScript snippet in their browser console on the Garena redemption site (`https://redeem.df.garena.sg/`):
+```javascript
+(function() {
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+    return null;
+  }
+
+  let rawUserInfo = getCookie('user_info') || localStorage.getItem('user_info');
+
+  if (!rawUserInfo) {
+    console.error("❌ Could not find 'user_info' in cookies or localStorage.");
+    return;
+  }
+
+  try {
+    const decodedStr = decodeURIComponent(rawUserInfo);
+    const data = JSON.parse(decodedStr);
+
+    const openid = data.openid || data.channel_info?.open_id || data.uid;
+    const token = data.token || data.channel_info?.token;
+
+    console.log(`export DF_OPENID="${openid}"\nexport DF_TOKEN="${token}"`);
+
+    return { DF_OPENID: openid, DF_TOKEN: token };
+  } catch (err) {
+    console.error("❌ Failed to parse 'user_info' JSON:", err);
+  }
+})();
+```
 
 **Redeem a single code**:
 ```bash

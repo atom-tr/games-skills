@@ -53,14 +53,16 @@ def cmd_list(state: dict):
 
 def cmd_add(state: dict, codes: list[str]):
     added, skipped = [], []
+    existing_upper = {k.upper(): k for k in state.get("codes", {})}
     for code in codes:
         code = code.strip()
         if not code:
             continue
-        if code in state["codes"]:
+        if code.upper() in existing_upper:
             skipped.append(code)
         else:
             state["codes"][code] = {"status": "pending", "tried_at": None, "note": ""}
+            existing_upper[code.upper()] = code
             added.append(code)
     save_state(state)
     if added:

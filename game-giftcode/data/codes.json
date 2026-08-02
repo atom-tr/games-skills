@@ -926,6 +926,111 @@
       "tried_at": "2026-07-14T06:03:24Z",
       "note": "[400054] The current cdk does not match"
     },
+    "DFAMMO08": {
+      "status": "success",
+      "tried_at": "2026-07-18T11:29:18Z",
+      "note": ""
+    },
+    "DFTURING09": {
+      "status": "success",
+      "tried_at": "2026-07-18T11:29:19Z",
+      "note": ""
+    },
+    "SIXMAJORMVP": {
+      "status": "success",
+      "tried_at": "2026-07-18T16:33:23Z",
+      "note": ""
+    },
+    "VIP777SIXDF": {
+      "status": "success",
+      "tried_at": "2026-07-18T16:33:23Z",
+      "note": ""
+    },
+    "DFARMX46": {
+      "status": "success",
+      "tried_at": "2026-07-18T16:33:23Z",
+      "note": ""
+    },
+    "MOILOOT92": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:46Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFSIXVIP888": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:30Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "ACESIXMAJOR": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:28Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFWEEK237": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:33Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "SOLDFWIN360": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:48Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT55": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:42Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT68": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:45Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT48": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:40Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT02": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:35Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT04": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:15:37Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFSL4791": {
+      "status": "success",
+      "tried_at": "2026-08-01T18:18:08Z",
+      "note": "manually recorded as used"
+    },
+    "DFSL6257": {
+      "status": "success",
+      "tried_at": "2026-08-01T18:18:08Z",
+      "note": "manually recorded as used"
+    },
+    "DFSL9304": {
+      "status": "success",
+      "tried_at": "2026-08-01T18:18:08Z",
+      "note": "manually recorded as used"
+    },
+    "MOILOOT60": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:18:54Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT45": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:18:57Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFCRAFT427": {
+      "status": "error",
+      "tried_at": "2026-08-01T18:18:59Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
     "ReturningWarrior3": {
       "status": "error",
       "tried_at": "2026-07-14T06:03:26Z",
@@ -996,30 +1101,15 @@
       "tried_at": "2026-07-14T06:03:57Z",
       "note": "[400054] The current cdk does not match"
     },
-    "DFAMMO08": {
-      "status": "success",
-      "tried_at": "2026-07-18T11:29:18Z",
-      "note": ""
+    "DFTRNG469": {
+      "status": "error",
+      "tried_at": "2026-08-02T14:14:17Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     },
-    "DFTURING09": {
-      "status": "success",
-      "tried_at": "2026-07-18T11:29:19Z",
-      "note": ""
-    },
-    "SIXMAJORMVP": {
-      "status": "success",
-      "tried_at": "2026-07-18T16:33:23Z",
-      "note": ""
-    },
-    "VIP777SIXDF": {
-      "status": "success",
-      "tried_at": "2026-07-18T16:33:23Z",
-      "note": ""
-    },
-    "DFARMX46": {
-      "status": "success",
-      "tried_at": "2026-07-18T16:33:23Z",
-      "note": ""
+    "DFFILE274": {
+      "status": "error",
+      "tried_at": "2026-08-02T14:14:14Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     }
   }
 }

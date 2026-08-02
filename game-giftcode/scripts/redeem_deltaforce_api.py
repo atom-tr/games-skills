@@ -144,14 +144,15 @@ def main():
 
     first_run = True
     for code in codes:
-        # Case-sensitive check
-        if code in tracked:
-            status = tracked[code].get("status")
+        # Case-insensitive lookup check in tracked codes
+        matched_key = next((k for k in tracked if k.upper() == code.upper()), None)
+        if matched_key:
+            status = tracked[matched_key].get("status")
             if status in ("success", "error"):
                 # Check if the error note is something we should retry (e.g. auth error)
-                note = tracked[code].get("note", "")
+                note = tracked[matched_key].get("note", "")
                 if "auth error" not in note.lower() and "curl failed" not in note.lower():
-                    print(f"[SKIP] {code} is already {status}: {note}")
+                    print(f"[SKIP] {code} (matches tracked {matched_key}) is already {status}: {note}")
                     continue
 
         if not first_run:
