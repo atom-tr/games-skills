@@ -74,6 +74,9 @@ Use `scripts/manage_codes.py` to read/write the state file safely:
 # List all codes and their status
 python3 <skill_dir>/scripts/manage_codes.py list
 
+# Check status of specific codes
+python3 <skill_dir>/scripts/manage_codes.py check CODE1 CODE2 CODE3
+
 # Add new codes (status=pending if not already tracked)
 python3 <skill_dir>/scripts/manage_codes.py add CODE1 CODE2 CODE3
 

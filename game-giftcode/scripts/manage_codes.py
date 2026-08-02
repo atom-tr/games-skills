@@ -3,6 +3,7 @@
 manage_codes.py — Game Gift Code state manager
 Usage:
   manage_codes.py list
+  manage_codes.py check <code> [<code> ...]
   manage_codes.py add <code> [<code> ...]
   manage_codes.py update <code> <status> [<note>]
   manage_codes.py pending
@@ -106,6 +107,23 @@ def cmd_stats(state: dict):
         print(f"  {status:<10}: {counts.get(status, 0)}")
 
 
+def cmd_check(state: dict, codes: list[str]):
+    existing_upper = {k.upper(): (k, v) for k, v in state.get("codes", {}).items()}
+    print(f"{'CODE':<30} {'STATUS':<10} {'TRIED_AT':<22} NOTE")
+    print("-" * 80)
+    for code in codes:
+        code_str = code.strip()
+        if not code_str:
+            continue
+        if code_str.upper() in existing_upper:
+            orig_key, info = existing_upper[code_str.upper()]
+            tried = info.get("tried_at") or "-"
+            note = info.get("note") or ""
+            print(f"{orig_key:<30} {info['status']:<10} {tried:<22} {note}")
+        else:
+            print(f"{code_str:<30} {'NOT_FOUND':<10} {'-':<22} -")
+
+
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
@@ -116,6 +134,11 @@ def main():
 
     if command == "list":
         cmd_list(state)
+    elif command == "check":
+        if len(sys.argv) < 3:
+            print("Usage: manage_codes.py check <code> [<code> ...]")
+            sys.exit(1)
+        cmd_check(state, sys.argv[2:])
     elif command == "add":
         if len(sys.argv) < 3:
             print("Usage: manage_codes.py add <code> [<code> ...]")

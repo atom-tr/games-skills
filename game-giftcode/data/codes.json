@@ -1110,6 +1110,26 @@
       "status": "error",
       "tried_at": "2026-08-02T14:14:14Z",
       "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFSL5029": {
+      "status": "success",
+      "tried_at": "2026-08-02T15:38:21Z",
+      "note": "ok"
+    },
+    "SOLMAJORGG9": {
+      "status": "success",
+      "tried_at": "2026-08-02T15:38:23Z",
+      "note": "ok"
+    },
+    "DFSIXTOPACE": {
+      "status": "success",
+      "tried_at": "2026-08-02T15:38:26Z",
+      "note": "ok"
+    },
+    "MVPSOLDFSIX": {
+      "status": "success",
+      "tried_at": "2026-08-02T15:38:28Z",
+      "note": "ok"
     }
   }
 }
