@@ -1130,6 +1130,26 @@
       "status": "success",
       "tried_at": "2026-08-02T15:38:28Z",
       "note": "ok"
+    },
+    "DFMAJORWIN8": {
+      "status": "success",
+      "tried_at": "2026-08-08T15:38:23Z",
+      "note": "ok"
+    },
+    "SOLSIXVIP55": {
+      "status": "success",
+      "tried_at": "2026-08-08T15:38:30Z",
+      "note": "ok"
+    },
+    "DFSL2823": {
+      "status": "success",
+      "tried_at": "2026-08-08T15:38:25Z",
+      "note": "ok"
+    },
+    "KINGSIXMAJOR": {
+      "status": "success",
+      "tried_at": "2026-08-08T15:38:28Z",
+      "note": "ok"
     }
   }
 }
