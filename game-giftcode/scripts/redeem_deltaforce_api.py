@@ -132,7 +132,7 @@ def main():
     ]
 
     # Load existing states to avoid retrying success or error codes
-    state_file = os.path.join(os.path.dirname(__file__), "../data/codes.json")
+    state_file = os.environ.get("CODES_FILE") or os.path.join(os.path.dirname(__file__), "../data/codes.json")
     tracked = {}
     if os.path.exists(state_file):
         try:

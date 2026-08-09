@@ -10,8 +10,10 @@ description: >
 
 ## State File
 
-All code history is stored in:
+All code history is stored by default in:
 `<skill_dir>/data/codes.json`
+
+> ⚠️ **Notice for Other Users (Non-Author)**: If you are using this skill and are NOT the original author, please save your code history in a custom directory or set `export CODES_FILE="/path/to/your/codes.json"`. This allows you to track your own redeemed codes independently without overwriting or relying on the author's history in `<skill_dir>/data/codes.json`.
 
 Format:
 ```json
@@ -91,6 +93,7 @@ python3 <skill_dir>/scripts/manage_codes.py pending
 ## Rules
 
 - **Path Resolution**: All paths specified in this skill (referenced via the `<skill_dir>` placeholder) are relative to the skill's installation directory (the directory containing `SKILL.md`). The AI agent must resolve `<skill_dir>` to the actual installation path of this skill dynamically before execution.
+- **Non-Author Users**: If the user running the session is not the author, ensure their code history is saved in a separate folder or via `CODES_FILE` so they can track their own redeemed codes.
 - **Never retry** a code with status `success` or `error` — it wastes attempts and may get account flagged
 - **Always save state** after each individual attempt, not at the end of a batch
 - **Rate limit**: wait 2s between each code submission to avoid being throttled

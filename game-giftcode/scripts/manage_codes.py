@@ -15,7 +15,7 @@ import sys
 import os
 from datetime import datetime, timezone
 
-STATE_FILE = os.path.join(os.path.dirname(__file__), "../data/codes.json")
+STATE_FILE = os.environ.get("CODES_FILE") or os.path.join(os.path.dirname(__file__), "../data/codes.json")
 VALID_STATUSES = {"pending", "success", "error", "skip"}
 
 
