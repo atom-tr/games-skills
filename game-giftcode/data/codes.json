@@ -1350,6 +1350,76 @@
       "status": "success",
       "tried_at": "2026-08-30T15:36:23Z",
       "note": "ok"
+    },
+    "DFVICTORY11": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:03Z",
+      "note": "ok"
+    },
+    "POC3105S52": {
+      "status": "error",
+      "tried_at": "2026-09-07T02:44:05Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFWEAPON91": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:08Z",
+      "note": "ok"
+    },
+    "POC3105S59": {
+      "status": "error",
+      "tried_at": "2026-09-07T02:44:10Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "POC3105S51": {
+      "status": "error",
+      "tried_at": "2026-09-07T02:44:12Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFOS3Y8KLM": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:15Z",
+      "note": "ok"
+    },
+    "DFOSB6T3WZ": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:17Z",
+      "note": "ok"
+    },
+    "DFOS9R2HXC": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:20Z",
+      "note": "ok"
+    },
+    "DFLUVU0282": {
+      "status": "error",
+      "tried_at": "2026-09-07T02:44:22Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFADVNV74": {
+      "status": "error",
+      "tried_at": "2026-09-07T02:44:24Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFSL4412": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:26Z",
+      "note": "ok"
+    },
+    "DFSL3145": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:29Z",
+      "note": "ok"
+    },
+    "DFSL7183": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:31Z",
+      "note": "ok"
+    },
+    "DFSL9108": {
+      "status": "success",
+      "tried_at": "2026-09-07T02:44:34Z",
+      "note": "ok"
     }
   }
 }
