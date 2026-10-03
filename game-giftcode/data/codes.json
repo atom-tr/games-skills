@@ -1480,6 +1480,271 @@
       "status": "success",
       "tried_at": "2026-09-26T07:13:32Z",
       "note": "ok"
+    },
+    "AUGTUTO": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:39:46Z",
+      "note": "AGU pack"
+    },
+    "DAISUAK12YOR": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:39:46Z",
+      "note": "ak-12 pack"
+    },
+    "GARENADFNY2501E034": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:03Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFNY2501H258": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:05Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "C7S2X9J5D4B1V3Q": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:40Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFCBT2503X9D1": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:52Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFCBT2503C3F4": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:49Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFID2501V621": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:58Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFID2501L983": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:54Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "GARENADFID2501R572": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:56Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DELTAFORCEVN_8MD718JT4GR": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:42Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFUTSCARH": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:33Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFUTWEAPON": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:38Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFUTGEARTICKET": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:17Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFUTINTERMEDIATE": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:19Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFUTSUPPYPACK": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:35Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFUTARMAMENT": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:17Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "msz7hMxxYyGhip8ay7HpK": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:19Z",
+      "note": "[400054] The current cdk does not match"
+    },
+    "DFUTS26QL3101C38": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:31Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFUTS26QL3001C47": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:29Z",
+      "note": "[400070] The end time has passed"
+    },
+    "DFUTS26GR0703C96": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:22Z",
+      "note": "[400070] The end time has passed"
+    },
+    "DFUTS26PL2103C54": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:24Z",
+      "note": "[400070] The end time has passed"
+    },
+    "DFUTS26PL2103C85": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:26Z",
+      "note": "[400070] The end time has passed"
+    },
+    "DFVSW1C5D9": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:40Z",
+      "note": "[400070] The end time has passed"
+    },
+    "DFCCOPWINEIEI": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:54Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DF425SOL": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:47Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFWIN777": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:21Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFHUNTER666": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:08Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFAIM666": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:49Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFGOGOGO425": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:03Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFGiveMeBrick425": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:05Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFLuckylucky425": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:10Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DF425BountyS2": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:44Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DF51login51login": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:47Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "SVBesCxYcsAN6LCD47P": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:14Z",
+      "note": "[400070] The end time has passed"
+    },
+    "L34m5GxYjnPkXzckgdEB": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:08Z",
+      "note": "[400070] The end time has passed"
+    },
+    "XufJgVxrFCtM5heBT3B": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:17Z",
+      "note": "[400070] The end time has passed"
+    },
+    "RCA812": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:42:10Z",
+      "note": "ok"
+    },
+    "22DFResCup": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:40:35Z",
+      "note": "ok"
+    },
+    "RCL813": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:42:12Z",
+      "note": "ok"
+    },
+    "DeltaForceRC777": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:41:49Z",
+      "note": "ok"
+    },
+    "11ResCupDF": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:40:33Z",
+      "note": "ok"
+    },
+    "DFELITE999": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:40:59Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFWANTED888": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:42Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFTARGET777": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:15Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFakachamp": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:41:45Z",
+      "note": "[400073] current cdkey present error"
+    },
+    "DFaura371": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:41:47Z",
+      "note": "ok"
+    },
+    "812RCB": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:40:37Z",
+      "note": "ok"
+    },
+    "DFSTEALTH44": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:41:12Z",
+      "note": "ok"
+    },
+    "DFASSAULT55": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:40:51Z",
+      "note": "ok"
+    },
+    "DFENERGY33": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:41:01Z",
+      "note": "ok"
+    },
+    "DFCOHERENCE35": {
+      "status": "success",
+      "tried_at": "2026-10-03T13:40:56Z",
+      "note": "ok"
+    },
+    "GARENADFNY2501C158": {
+      "status": "error",
+      "tried_at": "2026-10-03T13:42:01Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
     }
   }
 }
