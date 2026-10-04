@@ -1745,6 +1745,16 @@
       "status": "error",
       "tried_at": "2026-10-03T13:42:01Z",
       "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFFSSWT274": {
+      "status": "success",
+      "tried_at": "2026-10-04T08:14:51Z",
+      "note": "ok"
+    },
+    "DFVITRAT63": {
+      "status": "error",
+      "tried_at": "2026-10-04T08:14:54Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
     }
   }
 }
