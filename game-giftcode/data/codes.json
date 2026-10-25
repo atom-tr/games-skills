@@ -1885,6 +1885,101 @@
       "status": "success",
       "tried_at": "2026-10-25T14:58:33Z",
       "note": "ok"
+    },
+    "DFVNA4T8Z6P3": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:10Z",
+      "note": "ok"
+    },
+    "MOILOOT98": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:12Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "MOILOOT23": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:13Z",
+      "note": "[400067] The current user has reached the redemption limit of cdkey group"
+    },
+    "DFADVN74": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:16Z",
+      "note": "ok"
+    },
+    "DFIPPQARVO": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:18Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFIPPQIASP": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:20Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFIPPQOCSP": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:22Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFIPPQWLSP": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:25Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFIPPQTBAF": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:27Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFIPPQECMO": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:29Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "yU5DpNxYkwx2ck76pcnw": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:31Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "8RUW6wxY4kty9EpswSzD": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:34Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "SVdjHmxYCAeMjiRqdq86": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:36Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "PzDArbxYuL2f6RcaWE7T": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:38Z",
+      "note": "ok"
+    },
+    "DFUT2025FINALS4216": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:41Z",
+      "note": "ok"
+    },
+    "GARENADFCBT2503Z6T9": {
+      "status": "error",
+      "tried_at": "2026-10-25T15:03:43Z",
+      "note": "[400068] The current cdkey has reached the redemption limit"
+    },
+    "DFTHKOL88": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:45Z",
+      "note": "ok"
+    },
+    "DFTHKOL55": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:46Z",
+      "note": "ok"
+    },
+    "G3TIT": {
+      "status": "success",
+      "tried_at": "2026-10-25T15:03:48Z",
+      "note": "ok"
     }
   }
 }
