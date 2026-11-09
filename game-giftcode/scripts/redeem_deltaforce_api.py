@@ -8,7 +8,7 @@ Usage:
   python3 redeem_deltaforce_api.py CODE1 CODE2 CODE3
 
 Env vars (required):
-  DF_OPENID   — openid from Garena auth (numeric, e.g. 8486567269679708357)
+  DF_OPENID   — openid from Garena auth (numeric, e.g. <YOUR_OPENID>)
   DF_TOKEN    — token from Garena auth (hex string)
 
 Exit codes:
@@ -23,8 +23,16 @@ import os
 import subprocess
 import sys
 import time
+import urllib.error
+import urllib.request
 import uuid
 from urllib.parse import urlencode
+
+# Ensure UTF-8 console output on Windows
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 API_BASE   = "https://sg-act.playerinfinite.com"
@@ -40,8 +48,9 @@ TOKEN  = os.environ.get("DF_TOKEN",  "")
 
 if not OPENID or not TOKEN:
     print("[ERROR] Set DF_OPENID and DF_TOKEN env vars before running.", file=sys.stderr)
-    print("  export DF_OPENID='8486567269679708357'", file=sys.stderr)
-    print("  export DF_TOKEN='fbf006dac704924e09e8346dde18e673642603fb'", file=sys.stderr)
+    print("  PowerShell : $env:DF_OPENID='<YOUR_OPENID>'; $env:DF_TOKEN='<YOUR_TOKEN>'", file=sys.stderr)
+    print("  CMD        : set DF_OPENID=<YOUR_OPENID> && set DF_TOKEN=<YOUR_TOKEN>", file=sys.stderr)
+    print("  Bash       : export DF_OPENID='<YOUR_OPENID>' DF_TOKEN='<YOUR_TOKEN>'", file=sys.stderr)
     sys.exit(2)
 
 
@@ -75,25 +84,56 @@ def build_signed_url(code: str) -> str:
 def redeem(code: str) -> dict:
     """Call the API and return parsed JSON response."""
     url = build_signed_url(code)
-    result = subprocess.run(
-        [
-            "curl", "-s", "-X", "POST", url,
-            "-H", "Content-Type: application/json",
-            "-H", "Accept: application/json",
-            "-H", "Origin: https://redeem.df.garena.sg",
-            "-H", "Referer: https://redeem.df.garena.sg/",
-            "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "-d", json.dumps({"role_info": {"game_id": GAME_ID}}),
-            "--max-time", "15",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=20,
+    req = urllib.request.Request(
+        url,
+        data=json.dumps({"role_info": {"game_id": GAME_ID}}).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Origin": "https://redeem.df.garena.sg",
+            "Referer": "https://redeem.df.garena.sg/",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+            ),
+        },
+        method="POST",
     )
-    if result.returncode != 0:
-        raise RuntimeError(f"curl failed: {result.stderr.strip()}")
-    return json.loads(result.stdout)
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8")
+        if body:
+            try:
+                return json.loads(body)
+            except Exception:
+                pass
+        raise RuntimeError(f"HTTP {e.code}: {e.reason}")
+    except Exception as e:
+        # Fallback to curl if urllib encounters an unexpected network/ssl error
+        try:
+            result = subprocess.run(
+                [
+                    "curl", "-s", "-X", "POST", url,
+                    "-H", "Content-Type: application/json",
+                    "-H", "Accept: application/json",
+                    "-H", "Origin: https://redeem.df.garena.sg",
+                    "-H", "Referer: https://redeem.df.garena.sg/",
+                    "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+                    "-d", json.dumps({"role_info": {"game_id": GAME_ID}}),
+                    "--max-time", "15",
+                ],
+                capture_output=True,
+                text=True,
+                timeout=20,
+            )
+            if result.returncode == 0 and result.stdout:
+                return json.loads(result.stdout)
+        except Exception:
+            pass
+        raise e
 
 
 def classify(resp: dict) -> tuple[str, str]:
@@ -123,20 +163,44 @@ def classify(resp: dict) -> tuple[str, str]:
 def main():
     codes = [c.strip() for c in sys.argv[1:] if c.strip()]
     if not codes:
-        print("Usage: python3 redeem_deltaforce_api.py CODE1 [CODE2 ...]")
+        print("Usage: python redeem_deltaforce_api.py CODE1 [CODE2 ...]")
+        print("       python redeem_deltaforce_api.py pending    # auto-redeem all pending codes")
         sys.exit(1)
 
     manage = [
-        "python3",
+        sys.executable,
         os.path.join(os.path.dirname(__file__), "manage_codes.py"),
     ]
 
+    # If user passed 'pending', query manage_codes.py for all untried codes
+    if len(codes) == 1 and codes[0].lower() == "pending":
+        res = subprocess.run(manage + ["pending"], capture_output=True, text=True, check=False)
+        pending_codes = []
+        for line in res.stdout.splitlines():
+            line = line.strip()
+            if line and not line.startswith("Pending") and not line.startswith("No pending"):
+                pending_codes.append(line)
+        if not pending_codes:
+            print("[*] No pending codes found to redeem.")
+            sys.exit(0)
+        codes = pending_codes
+        print(f"[*] Found {len(codes)} pending codes to redeem: {', '.join(codes)}")
+
     # Load existing states to avoid retrying success or error codes
-    state_file = os.environ.get("CODES_FILE") or os.path.join(os.path.dirname(__file__), "../data/codes.json")
+    base_dir = os.path.join(os.path.dirname(__file__), "..")
+    state_file = (
+        os.environ.get("CODES_STATE_FILE")
+        or os.environ.get("CODES_FILE")
+        or os.path.join(base_dir, "data/codes_state.json")
+    )
+    if not os.path.exists(state_file) and os.path.exists(os.path.join(base_dir, "data/codes.json")):
+        if not os.environ.get("CODES_STATE_FILE") and not os.environ.get("CODES_FILE"):
+            state_file = os.path.join(base_dir, "data/codes.json")
+
     tracked = {}
     if os.path.exists(state_file):
         try:
-            with open(state_file, "r") as f:
+            with open(state_file, "r", encoding="utf-8") as f:
                 state_data = json.load(f)
                 tracked = state_data.get("codes", {})
         except Exception as e:

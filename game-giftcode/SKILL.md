@@ -8,21 +8,21 @@ description: >
 
 # Game Gift Code Skill
 
-## State File
+## Architecture (2-File Separation)
 
-All code history is stored by default in:
-`<skill_dir>/data/codes.json`
+The skill uses a 2-file architecture separating static inputs from runtime state:
+1. **Master Codelist**: `<skill_dir>/data/codelist.txt` (shared, version-controlled list of all gift codes, 1 per line).
+2. **Redemption State**: `<skill_dir>/data/codes_state.json` (per-user/account history tracking `status`, `tried_at`, and `note`).
 
-> ⚠️ **Notice for Other Users (Non-Author)**: If you are using this skill and are NOT the original author, please save your code history in a custom directory or set `export CODES_FILE="/path/to/your/codes.json"`. This allows you to track your own redeemed codes independently without overwriting or relying on the author's history in `<skill_dir>/data/codes.json`.
+> 💡 **Backward Compatibility**: If `<skill_dir>/data/codes_state.json` does not exist, scripts automatically fallback to `<skill_dir>/data/codes.json`. You can also override the state path via `export CODES_STATE_FILE="..."` or `export CODES_FILE="..."`.
 
-Format:
+State Format (`codes_state.json`):
 ```json
 {
-  "game": "game-name",
+  "game": "Delta Force",
   "codes": {
     "CODE123": { "status": "success", "tried_at": "2026-06-23T08:00:00Z", "note": "" },
-    "BADCODE": { "status": "error",   "tried_at": "2026-06-23T08:01:00Z", "note": "expired" },
-    "NEWCODE": { "status": "pending", "tried_at": null, "note": "" }
+    "BADCODE": { "status": "error",   "tried_at": "2026-06-23T08:01:00Z", "note": "expired" }
   }
 }
 ```
@@ -112,8 +112,8 @@ python3 <skill_dir>/scripts/manage_codes.py pending
 
 **Required env vars** (from Garena auth JSON):
 ```bash
-export DF_OPENID="8486567269679708357"       # numeric openid field
-export DF_TOKEN="fbf006dac704924e09e8346..."  # token field (not channel access_token)
+export DF_OPENID="<YOUR_OPENID>"       # numeric openid field
+export DF_TOKEN="<YOUR_TOKEN>"         # token field (not channel access_token)
 ```
 
 **How to get tokens**: 
