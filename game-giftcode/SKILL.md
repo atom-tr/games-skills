@@ -35,7 +35,7 @@ Statuses:
 
 ## Workflow — When User Provides Codes
 
-1. **Read state file** via `cat <skill_dir>/data/codes.json`
+1. **Check state** via `python3 <skill_dir>/scripts/manage_codes.py check CODE1 CODE2` (do not `cat` the state file; it is large)
 2. **Diff**: compare user-provided list against stored codes
 3. **Report**: tell user which codes are new vs already tried
 4. **Ask confirmation** before attempting new codes
